@@ -20,15 +20,15 @@ Versões novas: [github.com/pyrevitlabs/pyRevit/releases](https://github.com/pyr
 
 Abra o Revit e um projeto. Na aba **pyRevit**, clique no menu **pyRevit ▾** (abaixo de "Recarregar") e escolha **Configurações**.
 
-![Menu pyRevit ▾ na aba pyRevit](img/menu-pyrevit.png)
+![Menu pyRevit ▾ na aba pyRevit](../img/menu-pyrevit.png)
 
 **a) Desligue o novo carregador.** Em Carregador, desative **"Ativa o novo carregador pyRevit (beta)"**. Com ele ligado, a extensão do MCP não carrega.
 
-![Carregador beta desligado](img/carregador-beta-desligado.png)
+![Carregador beta desligado](../img/carregador-beta-desligado.png)
 
 **b) Ative o servidor de rotas.** Em **Rotas**, ligue **Servidor de Rotas (Beta)**. A opção "pyrevit-core/" não é necessária.
 
-![Servidor de Rotas ativo](img/servidor-rotas-ativo.png)
+![Servidor de Rotas ativo](../img/servidor-rotas-ativo.png)
 
 > **Importante:** clique em **Apenas salvar configuração** e feche o Revit. Nunca use "Salvar configurações e recarregar" nem o botão Recarregar com as Rotas ativas: é um bug conhecido do pyRevit que derruba o Revit na próxima requisição.
 
@@ -36,7 +36,7 @@ Abra o Revit e um projeto. Na aba **pyRevit**, clique no menu **pyRevit ▾** (a
 
 **a) Abra o Code no Claude Desktop.** No canto superior esquerdo, clique no ícone **</>** (ao lado do ícone de chat).
 
-![Ícone </> para entrar no Code](img/icone-code.png)
+![Ícone </> para entrar no Code](../img/icone-code.png)
 
 **b) Anexe o [`setup-revit-mcp.md`](setup-revit-mcp.md) e envie a mensagem.** Arraste o arquivo para a caixa de mensagem e escreva:
 

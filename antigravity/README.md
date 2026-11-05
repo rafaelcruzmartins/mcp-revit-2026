@@ -82,6 +82,12 @@ Se precisar mudar, o caminho mais seguro é **o usuário fazer pela tela**:
 5. Clique em **Apenas salvar configuração** (nunca em "Salvar configurações e recarregar").
 6. **Feche o Revit e abra de novo.**
  
+![Menu pyRevit ▾ na aba pyRevit](../img/menu-pyrevit.png)
+ 
+![Carregador beta desligado](../img/carregador-beta-desligado.png)
+ 
+![Servidor de Rotas ativo](../img/servidor-rotas-ativo.png)
+ 
 Alternativa, só se o usuário autorizar e **com o Revit fechado** (o Revit sobrescreve o `.ini` ao fechar): faça backup do `.ini` e ajuste as duas linhas com Python, preservando o resto do arquivo.
  
 **⏸ PARE** até o usuário confirmar que fez e reiniciou o Revit.
